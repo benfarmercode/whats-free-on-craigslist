@@ -1,0 +1,20 @@
+asgiref==3.3.1
+beautifulsoup4==4.9.3
+brotlipy==0.7.0
+bs4==0.0.1
+certifi==2020.11.8
+cffi @ file:///opt/concourse/worker/volumes/live/64b956eb-aec4-45ac-7ba6-1644ab7bdbb3/volume/cffi_1605538064078/work
+chardet @ file:///opt/concourse/worker/volumes/live/f132e510-fec1-466b-4f16-a7f4b77cbda7/volume/chardet_1605303200812/work
+cryptography @ file:///opt/concourse/worker/volumes/live/bc2022d3-cdaa-4db0-43e5-e869c08e31ac/volume/cryptography_1605544469626/work
+Django==3.1.3
+idna @ file:///tmp/build/80754af9/idna_1593446292537/work
+pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1605545627475/work
+PySocks @ file:///opt/concourse/worker/volumes/live/112288ac-9cb0-4e73-768b-13baf4ca6419/volume/pysocks_1605305820043/work
+python-decouple==3.3
+pytz==2020.4
+requests @ file:///tmp/build/80754af9/requests_1592841827918/work
+six @ file:///opt/concourse/worker/volumes/live/34b5b2b5-c9cb-44fb-4b8e-8a9a881bfa35/volume/six_1605205329242/work
+soupsieve==2.0.1
+sqlparse==0.4.1
+urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work

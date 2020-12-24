@@ -1,0 +1,36 @@
+{% load static %}
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>What's Free On Craigslist</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <link rel="shortcut icon" type="image/png" href="{% static 'favicon/favicon.ico' %}"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="{% static "css/animation.css"%}?{% now "U" %}" />
+    <link rel="stylesheet" href="{% static "css/style.css"%}?{% now "U" %}" />
+    <script type = "text/javascript"  src = "https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.4/js/materialize.min.js"></script>
+    <script type = "text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type = "text/javascript" src="{% static "js/jquery.waypoints.min.js" %}"></script>
+    <script type = "text/javascript" src="{% static "js/infinite.min.js" %}"></script>
+    <script type = "text/javascript" src="{% static "js/_jquery_head.js" %}"></script>
+</head>
+<body>
+    <div class="navbar-fixed">
+        <nav>
+            <a href="/" class="brand-logo center"> What's Free On Craigslist</a>
+            <ul id="nav-mobile" class="right">
+                <li><a href="#top" class="nav-link">Top</a></li>
+            </ul>
+        </nav>
+    </div>
+        {%  block content %}
+        {% endblock content %}
+    </div>
+    <script type = "text/javascript" src="{% static "js/_jquery_body.js" %}"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{%  block content %}
+    <div class="container home-main fade-in">
+        <div class="row home-area">
+            <form action="{%  url 'listings' %}" method="post">
+            {% csrf_token %}
+            <div class="input-field col s12 home-elem">
+                <select name="location">
+                    {% for location in locations %}
+                        <option value="{{ location.1 }}" {% if location.0 == "minneapolis / st paul" %}selected{% endif %}>{{ location.0 }}</option>
+                    {% endfor %}`
+                </select>
+                <label>Location</label>
+            </div>
+            <div class="col s12 home-elem">
+                <button class="btn waves-effect waves-light btn-main z-depth-3" type="submit" name="action">WHAT'S FREE
+                    <i class="material-icons right">new_releases</i>
+                </button>
+            </div>
+            </form>
+        </div>
+    </div>
+    <div class="open">
+        <div class="layer"></div>
+        <div class="layer"><h2>WHAT'S FREE ON CRAIGSLIST</h2></div>
+    </div>
+{% endblock content %}
