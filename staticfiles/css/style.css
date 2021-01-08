@@ -1,0 +1,156 @@
+. {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    font-family: Serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: rgb(240,242,245);
+}
+
+form{
+    margin: 10px;
+}
+
+.navbar-fixed > nav {
+    background-color: white !important;
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    z-index: 100;
+    border: 3px double rgba(93, 0, 143, 0.1);
+}
+
+.nav-link {
+    color: rgb(93,0, 143);
+    font-size: calc(14px + (24 - 14) * (100vw - 400px) / (1200 - 400)) !important;
+    padding: 0;
+    margin-right: 2vw;
+}
+
+.brand-logo{
+    width: 70%;
+    color: rgb(93,0, 143) !important;
+    font-size: calc(18px + (32 - 18) * (100vw - 400px) / (1200 - 400)) !important;
+    font-weight: 550;
+}
+
+.home-main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 50px;
+}
+
+.home-area{
+    margin: 50px 0px 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px;
+    border: 3px double rgba(93, 0, 143, 0.2);
+    width: 100%
+}
+
+.home-elem {
+    margin-bottom: 25px;
+    margin-top: 25px;
+}
+
+.btn-main {
+    background-color: rgb(93, 0, 143) !important;
+    height: 8vh;
+    width: 50vw;
+    border-radius: 5px;
+    font-size: 18px !important;
+}
+
+.btn-main:hover {
+    transition: transform 0.1s ease-in-out;
+    transform: scale(1.02) !important;
+}
+
+.search-area{
+    margin: 50px 0px 20px;
+    background-color: white;
+    border-radius: 10px;
+    padding: 10px 10px 0px;
+    border: 3px double rgba(93, 0, 143, 0.2);
+    width: 100%
+}
+.search-area button {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.input-box{
+    background-color: white !important;
+}
+
+input.select-dropdown {
+    font-size: calc(18px + (24 - 18) * (100vw - 400px) / (1200 - 400)) !important;
+    text-overflow: ellipsis !important;
+    overflow: hidden !important;
+}
+
+input.input-box {
+    font-size: calc(18px + (24 - 18) * (100vw - 400px) / (1200 - 400)) !important;
+}
+/* label focus color */
+.input-field input[type=text]:focus + label {
+    color: rgb(93, 0, 143) !important;
+}
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid rgb(93, 0, 143) !important;
+    box-shadow: 0 1px 0 0 rgb(93, 0, 143);
+}
+
+.search-result-info > h5 {
+    font-size: calc(14px + (16 - 14) * (100vw - 400px) / (1200 - 400));
+    margin-bottom: 0;
+    text-align: right;
+    font-style: italic;
+}
+
+.card {
+    height: 60vh;
+    overflow: hidden;
+    border: 3px double rgba(93, 0, 143, 0.2);
+}
+
+.card-content {
+    height: 10vh;
+    border-top: 3px double rgba(93, 0, 143, 0.2);
+    font-size: 18px;
+    padding: 6px !important;
+}
+
+.card:hover {
+    transition: transform 0.2s ease-in-out;
+    transform: scale(1.04) !important;
+}
+
+.card-image {
+    width: 100%;
+    height: 45vh;
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-action {
+    padding: 6px !important;
+
+}
+.card-action > a {
+    font-size: calc(12px + (14 - 12) * (100vw - 400px) / (1200 - 400)) !important;
+}
