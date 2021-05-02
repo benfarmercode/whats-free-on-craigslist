@@ -1,2 +1,2 @@
 # whats-free-on-craigslist
-A website that scrapes craigslist for free listings.
+A website that scrapes craigslist for location based free listings.
